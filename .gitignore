@@ -1,0 +1,26 @@
+# Ignore Python bytecode files, virtual environments, and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.env/
+*.egg-info/
+
+# Ignore data directory contents
+data/*
+!data/.gitkeep
+
+# Ignore notebooks directory contents
+notebooks/*
+!notebooks/.gitkeep
+
+# Ignore scripts directory contents
+scripts/*
+!scripts/.gitkeep
+
+# Ignore any other temporary or system files
+*.DS_Store
+Thumbs.db
+*.bak
+*.swp
