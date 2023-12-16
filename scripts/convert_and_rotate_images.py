@@ -7,7 +7,10 @@ def convert_and_rotate_images(input_dir, output_dir):
     for filename in os.listdir(input_dir):
         if filename.endswith(".tiff"):
             input_path = os.path.join(input_dir, filename)
-            output_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}.png")
+            output_path = os.path.join(
+                output_dir, 
+                f"{os.path.splitext(filename)[0]}.png"
+                )
 
             # Read image, rotate 90 degrees, and save as PNG
             image = Image.open(input_path)
