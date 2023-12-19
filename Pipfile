@@ -4,6 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+opencv-python = "*"
+torch = "*"
+torchvision = "*"
+jupyter = "*"
+pandas = "*"
+scikit-learn = "*"
+xgboost = "*"
+requests = "*"
+flask = "*"
+gunicorn = "*"
+matplotlib = "*"
 
 [dev-packages]
 
